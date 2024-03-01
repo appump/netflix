@@ -1,0 +1,345 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.main-content{
+    background-color: gray;
+}
+.firstpg{
+    background-image: url(netflix-background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    height: 800px;
+    border: 1px solid ;
+    width: 100%;
+    color: white;
+}
+h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+    font-size: 50px;
+    text-decoration: double;
+}
+p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    margin-top: 20px;
+}
+.nav{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.logo img{
+    height: 40px;
+    width: 150px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.lang{
+    display: flex;
+    margin-left: 600px;
+    align-items: left;
+    background-color: transparent;
+    color: black;
+
+}
+select{
+    height: 30px;
+    width: 150px;
+}
+.anchor{
+    height: 30px;
+    width: 100px;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    margin-left:20px ;
+    border-radius: 5px;
+}
+a{
+    margin-left: 20px;
+    /* background-color: red; */
+    border-radius: 4px;
+    font-size: 15px;
+    border-width: 20px;
+    color: white;
+    text-decoration: none;
+}
+.email{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 200px;
+    margin-top: 30px;
+    height: 40px;
+    width: 800px;
+}
+.placeholder{
+    color: white;
+}
+input{
+    height: 50px;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    padding-left: 10px;
+    background-color: transparent;
+    border-radius: 6px;
+    color: white;
+
+}
+.email a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 130px;
+    border-radius: 6px;
+    background-color: red;
+    /* text-decoration: double; */
+    font-size: 20px;
+    color: white;
+
+}
+.secondpg{
+    margin-top: 10px;
+    height: 600px;
+    width: 100%;
+    border: 2px solid black;
+    background-color: black;
+    margin-bottom: 10px;
+    
+}
+.img{
+    float: right;
+    margin-top: 10%;
+    width: 40%;
+    height: 50%;
+    
+}
+.img img{
+    height: 300px;
+    width: 380px;
+    margin-top: 5%;
+    margin-left: 20px;
+    margin-bottom: 50px
+}
+.hlo{
+    width:60%
+}
+h2{
+    color: white;
+    font-size: 50px;
+    
+}
+p{
+    color: white;
+    display: flex;
+    align-items: center;
+    margin-left: 180px;
+    margin-right: 80px;
+}
+
+.thirdpg{
+    padding-top: 20px;
+    height: 600px;
+    width: 100%;
+    border: 2px solid black;
+    background-color: black;
+    
+}
+.img1{
+    float: left;
+    margin-top: 5px;
+    width: 10%;
+    margin-left: 130px;
+    height: 50%;
+}
+img{
+    height: 300px;
+    width: 380px;
+    margin-top: 30px;
+    
+}
+.hi{
+    width:80%;
+    display: block;
+    align-items: center;
+}
+.hi h2{
+    color: white;
+    font-size: 50px;
+    float: right;
+    width: 40%;
+    margin-top: 70px;
+    
+}
+.hi p{
+    color: white;
+    font-size: 30px;
+    float: right;
+    width: 40%;
+    margin-right: 4px;
+
+}
+.thirdpg .img1 .hi .h2 .p{
+    color: white;
+    display: flex;
+    align-items: center;
+    margin-left: 180px;
+    margin-right: 80px;
+}
+.fourthpg{
+    height: 600px;
+    width: 100%;
+    border: 2px solid black;
+    background-color: black;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    
+}
+.img2{
+    float: right;
+    margin-top: 10%;
+    width: 40%;
+    height: 50%;
+    
+}
+.img2 img{
+    height: 300px;
+    width: 380px;
+    margin-top: 5%;
+    margin-left: 20px;
+    margin-bottom: 50px
+}
+.hl{
+    width:60%
+}
+.hl h2{
+    color: white;
+    font-size: 50px;
+    
+}
+.hl p{
+    color: white;
+    display: flex;
+    align-items: center;
+    margin-left: 180px;
+    margin-right: 80px;
+}
+.fifthpg{
+    padding-top: 20px;
+    height: 500px;
+    width: 100%;
+    border: 2px solid black;
+    background-color: black;
+    
+}
+.img3{
+    float: left;
+    margin-top: 5px;
+    width: 10%;
+    margin-left: 100px;
+    height: 50%;
+}
+.img3 img{
+    height: 300px;
+    width: 380px;
+    margin-top: 30px;
+    
+}
+.hk{
+    width:90%;
+    display: block;
+    align-items: center;
+}
+.hk h2{
+    color: white;
+    font-size: 50px;
+    float: right;
+    width: 55%;
+    margin-top: 70px;
+    
+}
+.hk p{
+    color: white;
+    font-size: 30px;
+    float: right;
+    width: 50%;
+    margin-right: 1px;
+
+}
+.lastpg{
+    margin-top: 10px;
+    padding-top: 20px;
+    height: 500px;
+    width: 100%;
+    border: 2px solid black;
+    background-color: black;
+    color: gray;
+}
+.last{
+    
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 400px;
+    width: 80%;
+    margin-left: 90px;
+    padding-top: 10px;
+    margin-bottom: 1px;
+    color: white;
+}
+.lt1.qn{
+    margin-top: 50px;
+    /* padding-left: 190px; */
+    margin-left: 50px;
+    display: block;
+    margin-left: 90px;
+}
+
+.lt1 ul{
+    display: block;
+    justify-content: space-evenly;
+    align-items: center;
+    color: gray;
+}
+ul a{
+    padding-top: 10px;
+    display: block;
+    margin-top: 0.85rem;
+    font-size: 14px;
+    text-decoration: underline;
+}
+.lt1 .lang{
+    display: flex;
+    margin-left: 18px;
+    align-items: left;
+    margin-top: 12px;
+    color: gray;
+}
+.lang select{
+    background-color: transparent;
+    color: white;
+    margin-top: 0px;
+}
+.lp p{
+    margin-top: 20px;
+    display: block;
+    flex: left;
+    margin-left: 18px;
+    font-size: 14px;
+}
+ul{
+    color: red;
+}
